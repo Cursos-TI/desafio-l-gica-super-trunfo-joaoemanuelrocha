@@ -117,48 +117,48 @@ int main() {
     }else {
         printf("População da carta 2 vencedora! \n");
     }
-
+    // Comapração entre a população da carta 1 e 2
     if(turisticos1 > turisticos2) {
         printf("Pontos turísticos da carta 1 venceu! \n");
     }else {
         printf("Pontos turísticos da carta 2 venceu! \n");
     }
-
+    // Comapração entre os pontos turísticos da carta 1 e 2
     if(area1 > area2) {
         printf("Área da carta 1 venceu! \n");
     }else {
         printf("Área da carta 2 venceu! \n");
     }
-
+    // Comapração entre a área da carta 1 e 2
     if(pib1 > pib2) {
         printf("Pib da carta 1 venceu! \n");
     }else {
         printf("Pib da carta 2 venceu! \n");
     }
-
+    // Comapração entre o PIB da carta 1 e 2
     if(densidade1 > densidade2) {
         printf("Densidade da carta 1 venceu! \n");
     }else {
         printf("Densidade da carta 2 venceu! \n");
     }
-
+    // Comapração da densidade populacional da carta 1 e 2
     if(capita1 > capita2) {
         printf("Pib per capita da carta 1 venceu! \n");
     }else {
         printf("Pib per capita da carta 2 venceu! \n");
     }
-
+    // Comapração do PIB per capita da carta 1 e 2
     if(inverso1 > inverso2) {
         printf("Inverso da densidade populacional da carta 1 venceu! \n");
     }else {
         printf("Inverso da densidade populacional da carta 2 venceu! \n");
     }
-
+    // Comapração do inverso da densidade populacional da carta 1 e 2
     if(super1 > super2) {
         printf("O super poder da carta 1 venceu! \n");
     }else {
         printf("O super poder da carta 2 venceu! \n");
     }
-
+    // Comapração dos super poderes da carta 1 e 2
     return 0;
 }
